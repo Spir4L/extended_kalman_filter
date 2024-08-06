@@ -1,6 +1,6 @@
 # extended_kalman_filter
 
-Implementation of a sensor fusion localization with Extended Kalman Filter(EKF).
+Implementation of a sensor fusion localisation with Extended Kalman Filter(EKF).
 
 # Problem definition
 
@@ -22,8 +22,8 @@ the inertial coordinate system in which the aircraft operates. It is assumed
 that the aircraft navigates in an inertial NED coordinate system with the
 reference point at position (0,0,0).
 
-# Localization for Observations
-The algorithm used to obtain the current observation of the x,y,z position is implemented following the TOA (Time of Arrival) algorithm.
+# Localisation for Observations
+The algorithm used to obtain the current observation of the x, y, z position is implemented following the TOA (Time of Arrival) algorithm.
 
 Reference:
            [1] A. H. Sayed et al., Network-based Wireless Location,
